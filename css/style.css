@@ -1,0 +1,120 @@
+#fit-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 4px 2px rgb(199, 194, 194);
+    margin-top: 20px;
+    height: 65px;
+    font-family: 'Karla', sans-serif;
+}
+
+#logo {
+    margin-top: 0px;
+    color: #7b2cbf;
+    margin-inline-start: 55px;
+    margin-block-start: 5px;
+    font-size: 38px; 
+}
+
+.fit-nav {
+    display: flex;
+    gap: 25px;
+    margin-inline-end: 80px;
+    margin-block-start: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.fit-nav>a {
+    text-decoration: none;
+    color: #FF6D00;
+}
+
+.g-header {
+    margin-top: 60px;
+    margin-bottom: 7px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 16px;
+    color:#3C096C;
+    font-family: Cambria, serif;
+    font-weight: 500;
+}
+
+.fit-gender {
+    display: flex;
+    margin-top: 4px;
+    margin-bottom: 7px;
+    margin-left: 145px;
+    margin-right: 150px;
+}
+
+#gender-input1 {
+    margin-right: 5px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+#gender-input2 {
+    margin-right: 5px;
+    margin-left: 15px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.fit-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+label {
+    margin-bottom: 5px;
+    margin-top: 4px;
+    font-size: small;
+    color:#3C096C;
+    font-family: Cambria, serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input {
+    outline: none;
+    border: solid #9D4EDD;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #3C096C;
+}
+
+input:focus {
+    border: solid #5A189A
+}
+
+button {
+    background-color: #FF9100;
+    color: #3C096C;
+    font-family: Cambria, serif;
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF6D00;
+}
+
+button:active {
+    transition: transform 0.2s;
+    transform: scale(0.95);
+    background-color: #FF9100;
+}

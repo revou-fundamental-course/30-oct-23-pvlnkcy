@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+    <script src="js/index.js"></script>
     <title>FitMate Calculator</title>
 </head>
 <body>
@@ -19,9 +20,9 @@
     </header>
     <p class="g-header">Jenis Kelamin</p>
     <main class="fit-gender">
-        <input type="radio" id="gender-input1" name="input-gender" value="Pria" class="styled-radio">
+        <input type="radio" id="gender-input1" name="input-gender" value="Pria">
         <label for="">Pria</label><br>
-        <input type="radio" id="gender-input2" name="input-gender" value="Wanita" class="styled-radio">
+        <input type="radio" id="gender-input2" name="input-gender" value="Wanita">
         <label for="">Wanita</label><br>
     </main>
     <main class="fit-input">
@@ -32,8 +33,8 @@
         <label for="">Tinggi Badan (Cm)</label>
         <input type="number" id="height-input" placeholder="0">
         <main>
-            <button>Hitung</button>
-            <button>Reset</button>
+            <button onclick="fitKalkulator()">Hitung</button>
+            <button onclick="clearDisplay()">Reset</button>
         </main>
     </main>
 </body>

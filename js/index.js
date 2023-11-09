@@ -5,7 +5,7 @@ function countCalculator(){
     var result0 = document.getElementById('result0');
     var hResult = document.getElementById('h-result');
     var keterangan = document.getElementById('keterangan');
-    var hasilBmi = document.getElementById('hasil-bmi')
+    var hasilBmi = document.getElementById('hasil-bmi');
 
     document.getElementById('main-result').removeAttribute('hidden');
 
